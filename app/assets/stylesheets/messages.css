@@ -12,11 +12,38 @@
   background-color: #3bbb14;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room a {
+  font-size: 10px;
+  border: 1px solid #ffffff;
+  padding: 14px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .side-bar-main{
   background-color: #7ff35c;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .main{
